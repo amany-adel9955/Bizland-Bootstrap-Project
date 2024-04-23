@@ -1,0 +1,45 @@
+.body{
+    scroll-behavior: smooth;
+}
+.top{
+    height: 50px; 
+  }
+  
+  .hero-sec{
+    height: 80vh;
+    background-image: url(imgs/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hero-content{
+    height: 100%;
+  }
+  
+  .hero-title{
+    font-weight: 800;
+    font-size: 40px;
+  }
+  
+  .hero-p{
+    font-size:22px;
+  
+  }
+  
+  .container{
+    display: flex;
+   
+  }
+  .container .row{
+    justify-content: space-between;
+  }
+  
+  #carouselExampleDark{
+    height: 80vh;
+    background-image: url(imgs/testimonials-bg.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    max-width: 90%;
+    margin-left: 80px;
+  }
+ 
